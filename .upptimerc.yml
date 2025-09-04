@@ -1,6 +1,6 @@
-# Change these first
+# Upptime configuration for Green Orbit Digital
 owner: greenorbitspace
-repo: upptime # The name of this repository
+repo: status.greenorbit.space # The repository name for the status page
 
 # List of sites to monitor
 sites:
@@ -28,9 +28,23 @@ sites:
     url: https://analytics.greenorbit.space
     emoji: "📊"
 
-# Optional: Customize the frequency of uptime checks (default is every 5 minutes)
+  - name: Docs
+    url: https://docs.greenorbit.space
+    emoji: "📄"
+
+  - name: Blog
+    url: https://blog.greenorbit.space
+    emoji: "📝"
+
+# Optional: Frequency of uptime checks (default is every 5 minutes)
 cron: "*/5 * * * *"
 
 # Optional: GitHub Pages branch for deployment
 pages:
   branch: gh-pages
+
+# Optional: Default emojis for incidents
+defaults:
+  emoji: "✅"
+  emojiDown: "❌"
+  emojiWarning: "🟧"
